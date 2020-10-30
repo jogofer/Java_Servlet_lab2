@@ -1,0 +1,27 @@
+h1{
+color:#3399ff;
+}
+
+h2{
+color:#99ccff;
+}
+
+
+
+.pie-pag{
+	text-align: center;
+	width:550px;
+	background:#cccccc;
+	padding:5px; 
+	border: groove #100;
+	}
+
+.color_rojo{
+color:red;
+
+}
+
+.color_verde{
+color:green;
+
+}

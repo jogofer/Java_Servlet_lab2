@@ -1,0 +1,131 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+<xs:element name="Movies">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="Anio"   minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Pais" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element> 
+
+<xs:element name="Pais">
+   <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="Pelicula" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="pais" type="xs:string" use="required" />
+    <xs:attribute name="lang" type="idioma" use="required"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Anio">
+  <xs:simpleType>
+    <xs:restriction base="xs:positiveInteger"> 
+      <xs:maxInclusive value="2017"/>
+      <xs:minInclusive value="1900"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="Pelicula">
+  <xs:complexType> 
+    <xs:sequence>
+      <xs:element ref="Titulo"    minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Generos"   minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Duracion"  minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Reparto"   minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence> 
+    <xs:attribute name="ip" type="ip" use="required" />
+    <xs:attribute name="langs" type="listaidiomas"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Titulo" type="xs:string"/> 
+
+<xs:element name="Generos">
+  <xs:complexType> 
+    <xs:sequence>
+      <xs:element ref="Genero"  minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence> 
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Genero">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:enumeration value="Comedia"/>
+    <xs:enumeration value="Drama"/>
+    <xs:enumeration value="Aventuras"/>
+   </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="Duracion">
+<xs:simpleType> 
+  <xs:restriction base="xs:positiveInteger"> 
+     <xs:maxInclusive value='300'/> 
+  </xs:restriction> 
+</xs:simpleType>
+</xs:element>
+ 
+<xs:element name="Reparto">
+  <xs:complexType mixed="true"> 
+    <xs:sequence>
+      <xs:element ref="Nombre"  minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Personaje"  minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="Oscar"  minOccurs="0" maxOccurs="1"/>
+      <xs:element ref="OtraPelicula"  minOccurs="0" />
+    </xs:sequence> 
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="Nombre" type="xs:string"/>
+<xs:element name="Personaje" type="xs:string"/> 
+
+<xs:element name="Oscar">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+    <xs:enumeration value="Principal"/>
+    <xs:enumeration value="Secundario"/>
+   </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="OtraPelicula">
+  <xs:complexType> 
+    <xs:sequence>
+     <xs:choice>
+      <xs:element ref="Titulo"  minOccurs="1" maxOccurs="1"/>
+      <xs:element ref="ip"  minOccurs="1" maxOccurs="1"/>
+     </xs:choice>
+      <xs:element ref="MML"  minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="anio" type="xs:positiveInteger" use="required" />
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="ip" type="ip" />
+  <xs:simpleType name="ip"> 
+    <xs:restriction base="xs:string"> 
+     <xs:pattern value="[A-Za-z]{3}\d{3}"/>
+    </xs:restriction> 
+  </xs:simpleType>
+<xs:element name="MML" type="xs:anyURI"/>
+
+
+<xs:simpleType name="idioma">
+    <xs:restriction base="xs:string"> 
+      <xs:pattern value="[A-Za-z]{2}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="listaidiomas">
+  <xs:list itemType="idioma"/>
+</xs:simpleType>
+
+ 
+</xs:schema>

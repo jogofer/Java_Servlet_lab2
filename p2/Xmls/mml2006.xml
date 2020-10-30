@@ -1,0 +1,25 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+  <Anio>2006</Anio> 
+  
+   <Pais pais="EEUU" lang="en">
+  
+      <Pelicula ip="err003" langs="en es fr">
+        <Titulo>Error3</Titulo>
+        <Generos> <Genero>Aventuras</Genero> </Generos>
+        <Reparto>
+          <Personaje>67</Personaje>
+          <Nombre>Ford, Harrison</Nombre> 
+          Chicago, EEUU
+          <Oscar>Principal</Oscar>
+        </Reparto>
+        <Reparto> 
+          <Nombre>Leonardo Dicaprio</Nombre>
+          <Oscar>Principal</Oscar>
+          Los Angeles, EEUU
+          <Personaje>33</Personaje>
+        </Reparto>
+      </Pelicula>
+   </Pais>
+</Movies>

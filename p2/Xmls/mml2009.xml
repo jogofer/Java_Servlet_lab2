@@ -1,0 +1,26 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+
+  <Anio>2009</Anio> 
+  
+   <Pais pais="EEUU" lang="en">
+  
+      <Pelicula ip="err006" langs="en es fr">
+        <Titulo>Error6</Titulo>
+        <Generos> <Genero>Aventuras</Genero> </Generos>
+        <Reparto> 
+          <Nombre>Ford, Harrison</Nombre> 
+          <Personaje>67</Personaje>
+          Chicago, EEUU
+          <Oscar>Principal</Oscar>
+        </Reparto>
+        <Reparto> 
+          <Nombre>Leonardo Dicaprio</Nombre>
+          <Oscar>Principal</Oscar>
+          Los Angeles, EEUU
+          <Personaje>133</Personaje>
+        </Reparto>
+      </Pelicula>
+   </Pais>
+</Movies>

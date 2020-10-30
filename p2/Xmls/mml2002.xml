@@ -1,0 +1,162 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+  <Anio>2002</Anio> 
+  
+    <Pais pais="UK" lang="en">
+    
+      <Pelicula ip="cbf101" langs="en es fr">
+       <Titulo>Cuatro bodas y un funeral</Titulo>
+       <Generos> <Genero>Comedia</Genero>  <Genero>Drama</Genero> </Generos>
+            <Duracion>110</Duracion>
+            <Reparto> 
+              <Nombre>Grant, Hiu</Nombre>
+              <Personaje>bale</Personaje>
+              Bristol, UK
+              <Oscar>Principal</Oscar>
+            </Reparto>
+            <Reparto>
+              Londres, UK
+              <Nombre>Winsle, Keit</Nombre>
+              <Personaje>megan trainor</Personaje>
+            </Reparto>
+      </Pelicula>
+      
+      <Pelicula ip="lvb102" langs="en es">
+        <Titulo>La vida de Brian</Titulo>
+        <Generos> <Genero>Comedia</Genero> </Generos>
+        <Duracion>100</Duracion>
+            <Reparto> 
+              <Nombre>Sellers, Peter</Nombre>
+              <Personaje>xavi</Personaje>
+              Oxford, UK
+            </Reparto>
+            <Reparto>
+              Londres, UK
+              <Nombre>Winsle, Keit</Nombre>
+              <Personaje>caballé</Personaje>
+              <Oscar>Secundario</Oscar>
+              <OtraPelicula anio="2007">
+               <Titulo>Joker</Titulo>
+               <MML>mml2007.xml</MML>
+              </OtraPelicula>
+            </Reparto>
+      </Pelicula>
+     
+  </Pais>
+  
+  
+  <Pais pais="España" lang="es">
+      
+    <Pelicula ip="tor103" langs="es en">
+      <Titulo>Torrente</Titulo>
+      <Generos> <Genero>Comedia</Genero>  <Genero>Aventuras</Genero> </Generos>
+      <Duracion>95</Duracion>
+      <Reparto>
+        Barcelona, España
+        <Nombre>Segura, Santiago</Nombre>
+        <Personaje>pepe</Personaje>
+        <Oscar>Secundario</Oscar>
+        <OtraPelicula anio="2010">
+               <Titulo>Spiderman</Titulo>
+               <MML>mml2010.xml</MML>
+        </OtraPelicula>
+      </Reparto>
+      <Reparto> 
+         <Nombre>Cantudo, María José</Nombre>
+          <Personaje>daisy</Personaje>
+         <Oscar>Principal</Oscar>
+         Burgos, España
+      </Reparto>
+    </Pelicula>
+
+    <Pelicula ip="tin104" langs="es it">
+      <Titulo>El milagro de P. Tinto</Titulo>
+      <Generos> <Genero>Comedia</Genero>  <Genero>Aventuras</Genero> </Generos>
+      <Duracion>80</Duracion>
+      <Reparto> 
+        <Nombre>Resines, Antonio</Nombre> 
+       Santander, España
+        <Personaje>ramos</Personaje>
+      </Reparto>
+      <Reparto> 
+        <Nombre>Wiver, Sigurni</Nombre> 
+         Boston, EEUU
+        <Personaje>leticia</Personaje>
+      </Reparto>
+    </Pelicula>
+
+  </Pais>
+  
+  <Pais pais="EEUU" lang="en">
+  
+    <Pelicula ip="mat105" langs="en fr">
+        <Titulo>Matrix</Titulo>
+        <Generos> <Genero>Drama</Genero> <Genero>Aventuras</Genero> </Generos>
+        <Duracion>130</Duracion>
+        <Reparto> 
+          <Nombre>Ford, Harrison</Nombre> 
+          <Personaje>piqué</Personaje>
+          Chicago, EEUU
+          <Oscar>Principal</Oscar>
+        </Reparto>
+       <Reparto> 
+          <Nombre>Winsle, Keit</Nombre> 
+          <Personaje>soraya</Personaje>
+          <OtraPelicula anio="2004">
+              <ip>kdn301</ip>
+              <MML>mml2004.xml</MML>
+        </OtraPelicula>
+          Londres, UK
+        </Reparto>
+    </Pelicula>
+     
+    <Pelicula ip="bow106" langs="en es">
+      <Titulo>Bowling for Columbine</Titulo>
+      <Generos> <Genero>Comedia</Genero>  <Genero>Drama</Genero> </Generos>
+      <Duracion>115</Duracion>
+       <Reparto>
+        París, Francia
+        <Nombre>Brando, Marlon</Nombre>
+        <Personaje>rajoy</Personaje>
+      </Reparto>
+      <Reparto> 
+        <Nombre>Wiver, Sigurni</Nombre> 
+         Boston, EEUU
+        <Personaje>Hillary clinton</Personaje>
+      </Reparto>
+    </Pelicula>
+      
+    <Pelicula ip="amb107" langs="fr it">
+      <Titulo>American Beauty</Titulo>
+      <Generos> <Genero>Comedia</Genero> </Generos>
+      <Duracion>95</Duracion>
+      <Reparto> 
+          <Nombre>Pit, Braz</Nombre>
+          Baltimore, EEUU
+          <Personaje>iglesias</Personaje>
+          <Oscar>Secundario</Oscar>
+      </Reparto>
+      <Reparto> 
+              <Nombre>Sellers, Peter</Nombre>
+              <Personaje>rivera</Personaje>
+              Oxford, UK
+              <OtraPelicula anio="2006">
+               <Titulo>Zipi y Zape</Titulo>
+               <MML>mml2006.xml</MML>
+         </OtraPelicula>
+      </Reparto>
+    </Pelicula>
+ 
+
+    
+  </Pais>
+   
+   
+
+ 
+
+ 
+ 
+
+</Movies>

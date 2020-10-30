@@ -1,0 +1,177 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+
+  <Anio>2001</Anio>
+
+  <Pais pais="EEUU" lang="en">
+    
+      <Pelicula ip="vpg001" langs="en fr">
+        <Titulo>Los gemelos golpean dos veces</Titulo>
+        <Generos> <Genero>Comedia</Genero> <Genero>Aventuras</Genero> </Generos>
+        <Duracion>105</Duracion>
+        <Reparto> 
+          <Nombre>Debito, Dani</Nombre>
+          <Personaje>suarez</Personaje>
+          <Oscar>Principal</Oscar>
+          Austin, EEUU
+          <OtraPelicula anio="2009">
+               <Titulo>El aprendiz</Titulo>
+               <MML>mml2009.xml</MML>
+         </OtraPelicula>
+        </Reparto>
+        <Reparto>
+          Viena, Austria
+          <Nombre>Suarsenager, Arnold</Nombre>
+          <Personaje>neymar</Personaje>
+        </Reparto>
+      </Pelicula>
+      
+      <Pelicula ip="tit002" langs="en es">
+        <Titulo>Titanic</Titulo>
+        <Generos> <Genero>Drama</Genero> <Genero>Aventuras</Genero> </Generos>
+        <Duracion>150</Duracion>
+        <Reparto> 
+          <Nombre>Dicaprio, Leonardo</Nombre>
+            <Personaje>benzemá</Personaje>
+          <Oscar>Principal</Oscar>
+          Los Angeles, EEUU
+        </Reparto>
+        <Reparto> 
+          <Nombre>Winsle, Keit</Nombre>
+          <Personaje>madonna</Personaje>
+          <Oscar>Principal</Oscar>
+          Londres, UK
+        </Reparto>
+      </Pelicula>
+      
+      <Pelicula ip="ter003" langs="en it">
+        <Titulo>Terminator</Titulo>
+        <Generos> <Genero>Comedia</Genero> <Genero>Aventuras</Genero> </Generos>
+        <Duracion>140</Duracion>
+        <Reparto> 
+          <Nombre>Suarsenager, Arnold</Nombre>
+          <Personaje>carvajal</Personaje>
+          <Oscar>Principal</Oscar>
+          Viena, Austria
+        </Reparto>
+        <Reparto> 
+          <Nombre>Pit, Braz</Nombre>
+          Baltimore, EEUU
+          <Personaje>zidane</Personaje>
+        </Reparto>
+        <Reparto> 
+          <Nombre>Winsle, Keit</Nombre>
+          <Personaje>sofía</Personaje>
+          <Oscar>Secundario</Oscar>
+          Londres, UK
+        </Reparto>
+      </Pelicula>
+  </Pais>
+  
+  
+  <Pais pais="España" lang="es">
+      
+    <Pelicula ip="lbe004" langs="es en">
+      <Titulo>La buena estrella</Titulo>
+      <Generos> <Genero>Aventuras</Genero>  <Genero>Drama</Genero> </Generos>
+      <Duracion>100</Duracion>
+      <Reparto> 
+        <Nombre>Mollá, Jordi</Nombre>
+        <Personaje>ferrer</Personaje>
+        Madrid, España
+        <Oscar>Principal</Oscar>
+      </Reparto>
+      <Reparto>
+        Santander, España
+        <Nombre>Resines, Antonio</Nombre>
+        <Personaje>ortega</Personaje>
+       <OtraPelicula anio="2003">
+              <ip>lss203</ip>
+              <MML>mml2003.xml</MML>
+        </OtraPelicula>
+      </Reparto>
+    </Pelicula>
+
+    <Pelicula ip="lfa005" langs="es fr">
+       <Titulo>La familia</Titulo>
+       <Generos> <Genero>Drama</Genero> <Genero>Comedia</Genero> </Generos>
+       <Duracion>90</Duracion>
+       <Reparto> 
+         <Nombre>Cantudo, María José</Nombre>
+          <Personaje>botín</Personaje>
+         <Oscar>Secundario</Oscar>
+         Burgos, España
+         <OtraPelicula anio="2020">
+               <Titulo>La flor del mal</Titulo>
+               <MML>mml2020.xml</MML>
+         </OtraPelicula>
+      </Reparto>
+      <Reparto> 
+         <Nombre>Mollá, Jordi</Nombre>
+         Madrid, España
+         <Personaje>alonso</Personaje>
+       </Reparto>
+     </Pelicula>
+
+
+    <Pelicula ip="opp006" langs="es it">
+      <Titulo>Opera Prima</Titulo>
+      <Generos> <Genero>Aventuras</Genero>  <Genero>Drama</Genero> <Genero>Comedia</Genero> </Generos>
+      <Duracion>90</Duracion>
+      <Reparto>
+        Santander, España
+        <Nombre>Resines, Antonio</Nombre> 
+        <Personaje>pau gasol</Personaje>
+      </Reparto>
+      <Reparto>
+        Cadiz, España
+        <Nombre>Vega, Paz</Nombre> 
+        <Personaje>conchita</Personaje>
+      </Reparto>
+    </Pelicula>
+
+  </Pais>
+  
+  
+  <Pais pais="Francia" lang="fr">
+    
+    <Pelicula ip="bep007" langs="fr en">
+      <Titulo>Belle Epoque</Titulo>
+      <Generos> <Genero>Aventuras</Genero> </Generos>
+      <Duracion>80</Duracion>
+      <Reparto> 
+        <Nombre>Mollá, Jordi</Nombre>
+        <Personaje>marc gasol</Personaje>
+        Madrid, España
+      </Reparto>
+      <Reparto>
+        París, Francia
+        <Nombre>Brando, Marlon</Nombre>
+        <Personaje>jordan</Personaje>
+        <Oscar>Principal</Oscar>
+      </Reparto>
+    </Pelicula>
+
+    <Pelicula ip="lfb005" langs="es fr">
+       <Titulo>La familia Belier</Titulo>
+       <Generos>  <Genero>Comedia</Genero> </Generos>
+       <Duracion>107</Duracion>
+       <Reparto> 
+         <Nombre>Cantudo, María José</Nombre>
+         Burgos, España
+         <Personaje>arantxa</Personaje>
+      </Reparto>
+      <Reparto>
+        París, Francia
+        <Nombre>Brando, Marlon</Nombre>
+        <Personaje>navarro</Personaje>
+      </Reparto>
+    </Pelicula>
+
+     
+     
+  </Pais>
+    
+    
+</Movies>

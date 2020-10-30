@@ -1,0 +1,35 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+
+  <Anio>2004</Anio> 
+  
+   <Pais pais="EEUU" lang="en">
+  
+      <Pelicula ip="kdn301" langs="en es fr">
+        <Titulo>K-19</Titulo>
+        <Generos> <Genero>Aventuras</Genero> </Generos>
+        <Duracion>95</Duracion>
+        <Reparto> 
+          <Nombre>Ford, Harrison</Nombre> 
+          <Personaje>donald</Personaje>
+          Chicago, EEUU
+          <Oscar>Principal</Oscar>
+          <OtraPelicula anio="2003">
+               <Titulo>Los hermanos Marx</Titulo>
+               <MML>mml2003.xml</MML>
+         </OtraPelicula>
+        </Reparto>
+        <Reparto> 
+          <Nombre>Dicaprio, Leonardo</Nombre>
+          <Personaje>mickey</Personaje>
+          <Oscar>Principal</Oscar>
+          Los Angeles, EEUU
+          <OtraPelicula anio="2008">
+               <Titulo>Oficial y caballero</Titulo>
+               <MML>mml2008.xml</MML>
+         </OtraPelicula>
+        </Reparto>
+      </Pelicula>
+   </Pais>
+</Movies>

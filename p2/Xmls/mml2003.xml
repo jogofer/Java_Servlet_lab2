@@ -1,0 +1,81 @@
+<?xml  version="1.0"  encoding="utf-8" standalone="no" ?> 
+
+<Movies>
+
+  <Anio>2003</Anio> 
+  
+  <Pais pais="Italia" lang="it">
+    
+      <Pelicula ip="lvb201" langs="it en">
+        <Titulo>La vida es bella</Titulo>
+        <Generos> <Genero>Comedia</Genero>  <Genero>Aventuras</Genero> </Generos>
+        <Duracion>110</Duracion>
+        <Reparto> 
+          <Nombre>Benini, Roberto</Nombre> 
+          Roma, Italia
+          <Personaje>pluto</Personaje>
+        </Reparto>
+        <Reparto> 
+          <Nombre>Loren, Sofía</Nombre>
+          <Personaje>mini</Personaje>
+          <Oscar>Secundario</Oscar>
+          Napoles, Italia
+          <OtraPelicula anio="2005">
+               <Titulo>La letra escarlata</Titulo>
+               <MML>mml2005.xml</MML>
+         </OtraPelicula>
+        </Reparto>       
+      </Pelicula>
+       
+  </Pais>
+  
+  <Pais pais="España" lang="es">
+      <Pelicula ip="tst202" langs="es">
+        <Titulo>Torremolinos 73</Titulo>
+        <Generos> <Genero>Drama</Genero> </Generos>
+        <Duracion>90</Duracion>
+          <Reparto>
+            Barcelona, España
+            <Nombre>Segura, Santiago</Nombre>
+            <Personaje>cristiano</Personaje>
+          </Reparto>
+          <Reparto> 
+             <Nombre>Wiver, Sigurni</Nombre> 
+              Boston, EEUU
+             <Personaje>muguruza</Personaje>
+            <OtraPelicula anio="2001">
+               <Titulo>Tarzán</Titulo>
+               <MML>mml2001.xml</MML>
+         </OtraPelicula>
+           </Reparto>      
+      </Pelicula>
+  </Pais>
+  
+  
+  <Pais pais="Japón" lang="jp">
+      <Pelicula ip="lss203" langs="jp es">
+       <Titulo>Los 7 samurais</Titulo>
+       <Generos> <Genero>Aventuras</Genero> </Generos>
+       <Duracion>160</Duracion>
+         <Reparto> 
+             <Nombre>Pit, Braz</Nombre>
+             Baltimore, EEUU
+             <Personaje>mesi</Personaje>
+             <Oscar>Secundario</Oscar>
+         </Reparto>
+        <Reparto> 
+          <Nombre>Benini, Roberto</Nombre> 
+          Roma, Italia
+          <Personaje>nadal</Personaje>
+          <OtraPelicula anio="2002">
+               <Titulo>El timo</Titulo>
+               <MML>mml2002.xml</MML>
+         </OtraPelicula>
+        </Reparto>
+     </Pelicula>
+  </Pais>
+
+ 
+ 
+
+</Movies>
