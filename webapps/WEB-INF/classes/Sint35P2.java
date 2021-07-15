@@ -270,7 +270,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("</form>");
 			out.println("</div>");
 			out.println("<footer class='site-footer'>");
-			out.println("<p>Jonatan Gomez Fernandez</p>");
+			out.println("<p>Jonathan Gomez Fernandez</p>");
 			out.println("</footer>");
 			out.println("</body>");
 			out.println("</html>");
@@ -499,7 +499,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("<input type='submit' value='Enviar'/>");
 			out.println("</form>");
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 
 			out.println("</body>");
@@ -556,7 +556,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("</form>");
 
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 			out.println("</body>");
 			out.println("</html>");
@@ -709,7 +709,7 @@ public class Sint35P2 extends HttpServlet {
 
 
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 
 			out.println("</body>");
@@ -891,7 +891,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("</form>");
 
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 
 			out.println("</body>");
@@ -1113,7 +1113,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("</form>");
 
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 
 			out.println("</body>");
@@ -1286,7 +1286,7 @@ public class Sint35P2 extends HttpServlet {
 			out.println("</form>");
 
 			out.println("<footer class='pie-pag'>");
-			out.println("<p> Jonatan Gómez Fernández </p>");
+			out.println("<p> Jonathan Gómez Fernández </p>");
 			out.println("</footer>");
 
 			out.println("</body>");
